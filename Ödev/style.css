@@ -1,0 +1,41 @@
+#hesapMakinesi
+{
+    position: relative;
+    background-color: #f1f1f1;
+    width: 500px; 
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    top: 150px;
+    left: 500px;
+}
+input[type=number], select {
+    width: 98%;
+    margin: 8px 0;
+    padding: 12px 20px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+button{
+    background-color: #008CBA; 
+    color: white;
+    width: 48%;
+    margin: 4px 2px;
+    padding: 15px 32px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px; 
+    cursor: pointer; 
+}
+button:hover{
+    background-color: #006181;
+    transition: 1s;
+}
+#sonuc{
+    text-align: center;
+    padding: 8px 0;
+    font-size: 20px;
+}
+
